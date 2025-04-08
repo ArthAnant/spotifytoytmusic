@@ -32,7 +32,7 @@ def get_spotify_playlist_tracks(playlist_url):
 
 def create_youtube_music_playlist(tracks, playlist_name):
     ytmusic = YTMusic('oauth.json', oauth_credentials=OAuthCredentials(client_id=os.getenv("YT_CLIENT_ID"), client_secret=os.getenv("YT_CLIENT_SECRET")))
-    # Create playlist
+    #Create playlist
     playlist_id = ytmusic.create_playlist(
         title=playlist_name,
         description="Migrated from Spotify"
