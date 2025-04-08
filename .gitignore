@@ -1,4 +1,6 @@
 .env 
 .cache
+test.py
+oauth.json
 __pycache__/ 
 *.pyc 
