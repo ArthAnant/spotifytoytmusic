@@ -128,6 +128,3 @@ if __name__ == "__main__":
     playlist_name = input("Enter New Playlist Name: ")
     yt_playlist_id = create_youtube_music_playlist(spotify_url, playlist_name)
     print(f"Created YouTube Music playlist: https://music.youtube.com/playlist?list={yt_playlist_id}")
-    # print("\nFetching Spotify playlist")
-    # tracks = get_spotify_playlist_tracks(spotify_url)
-    # print(f"Found {len(tracks)} tracks")
